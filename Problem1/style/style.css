@@ -1,0 +1,31 @@
+@font-face {
+    font-family: EdwardianScriptITC;
+    src: url("../fonts/edwardian/EdwardianScriptITC.ttf");
+}
+
+@font-face {
+    font-family: Consola;
+    src: url("../fonts/consolas/consola.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    color: #0094ff;
+}
+
+p {
+    font-family: "Consola", serif;
+    width: 60%;
+    margin: 0 auto;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-family: "EdwardianScriptITC", sans-serif;
+    font-size: 50px;
+}

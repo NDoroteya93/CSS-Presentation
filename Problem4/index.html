@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img src="icons/tt.png" alt="calculator-icon" />
+            <span>Calculator</span>
+            <button type="button">X</button>
+            <button type="button" disabled="disabled">-</button>
+            <button type="button">-</button>
+        </div>
+        <div class="calculator-content">
+            <div class="calculator-menu">
+                <span>View</span>
+                <span>Edit</span>
+                <span>Help</span>
+            </div>
+
+            <div class="calculator-display">
+                8854455
+            </div>
+
+            <div class="binary-container">
+                <ul class="binary-number">
+                    <li>00 00<span>63</span></li>
+                    <li>00 00</li>
+                    <li>00 00</li>
+                    <li>00 00</li>
+                    <li>00 00<span>47</span></li>
+                    <li>00 00</li>
+                    <li>00 00</li>
+                    <li>00 00<span>32</span></li>
+                </ul>
+
+                <ul class="binary-number">
+                    <li>00 00 <span>31</span></li>
+                    <li>00 00</li>
+                    <li>1000</li>
+                    <li>0111</li>
+                    <li>0001 <span>15</span></li>
+                    <li>1011</li>
+                    <li>1011</li>
+                    <li>0111 <span>0</span></li>
+                </ul>
+            </div>
+            <div class="checkbox-container">
+                <div>
+                    <input type="radio" id="hex-number" />
+                    <label for="hex-number"><span><span></span></span>Hex</label>
+                    <input type="radio" id="dec-number" checked/>
+                    <label for="dec-number"><span><span></span></span>Dec</label>
+                    <input type="radio" id="oct-number" />
+                    <label for="oct-number"><span><span></span></span>Oct</label>
+                    <input type="radio" id="bin-number" />
+                    <label for="bin-number"><span><span></span></span>Bin</label>
+                </div>
+                <div>
+                    <input type="radio" id="qword-type">
+                    <label for="qword-type"><span><span></span></span>Qword</label>
+                    <input type="radio" id="dword-type">
+                    <label for="dword-type"><span><span></span></span>Dword</label>
+                    <input type="radio" id="word-type">
+                    <label for="word-type"><span><span></span></span>Word</label>
+                    <input type="radio" id="byte-type">
+                    <label for="byte-type"><span><span></span></span>Byte</label>
+                </div>
+            </div>
+
+            <div class="wrapp-buttons">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td class="md-light-btn">Mod</td>
+                        <td>A</td>
+                        <td>MC</td>
+                        <td>MR</td>
+                        <td>MS</td>
+                        <td>M+</td>
+                        <td>M-</td>
+                    </tr>
+                    <tr>
+                        <td class="md-light-btn">(</td>
+                        <td class="md-light-btn">)</td>
+                        <td>B</td>
+                        <td class="md-light-btn">&larr;</td>
+                        <td class="md-light-btn">CE</td>
+                        <td class="md-light-btn">C</td>
+                        <td class="md-light-btn">&plusmn;</td>
+                        <td>&Sqrt;</td>
+                    </tr>
+                    <tr>
+                        <td class="md-light-btn">RoL</td>
+                        <td class="md-light-btn">RoR</td>
+                        <td>C</td>
+                        <td class="number-btn">7</td>
+                        <td class="number-btn">8</td>
+                        <td class="number-btn">9</td>
+                        <td class="md-light-btn">/</td>
+                        <td>%</td>
+                    </tr>
+                    <tr>
+                        <td class="md-light-btn">Or</td>
+                        <td class="md-light-btn">Xor</td>
+                        <td>D</td>
+                        <td class="number-btn">4</td>
+                        <td class="number-btn">5</td>
+                        <td class="number-btn">6</td>
+                        <td class="md-light-btn">*</td>
+                        <td>1/&xscr;</td>
+                    </tr>
+                    <tr>
+                        <td class="md-light-btn">Lsh</td>
+                        <td class="md-light-btn">Rsh</td>
+                        <td>E</td>
+                        <td class="number-btn">1</td>
+                        <td class="number-btn">2</td>
+                        <td class="number-btn">3</td>
+                        <td class="md-light-btn">-</td>
+                        <td rowspan="2" class="md-light-btn">=</td>
+                    </tr>
+                    <tr>
+                        <td class="md-light-btn">Not</td>
+                        <td class="md-light-btn">And</td>
+                        <td>F</td>
+                        <td colspan="2" class="number-btn">0</td>
+                        <td class="md-light-btn">.</td>
+                        <td class="md-light-btn">+</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
